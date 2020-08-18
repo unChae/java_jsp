@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Tue Aug 18 12:32:58 KST 2020
-org.eclipse.jst.jee.server\:ex=C\:\\Users\\chain\\Desktop\\chae workplace\\apache-tomcat-9.0.37\\wtpwebapps\\ex
-org.eclipse.jst.jee.server\:helloworld=C\:\\Users\\chain\\Desktop\\chae workplace\\apache-tomcat-9.0.37\\wtpwebapps\\helloworld

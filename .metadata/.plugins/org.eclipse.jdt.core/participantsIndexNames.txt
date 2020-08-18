@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\chain\Desktop\chae workplace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3969768068.index
-\ex\src

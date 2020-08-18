@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\Users\chain\Desktop\chae workplace\spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2095425054.index
-54703828.index
-3550257354.index
-3702745130.index
-1412227790.index
-3647670962.index
