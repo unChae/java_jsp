@@ -73,7 +73,6 @@
 
     1. ServletContextListener를 implements해서 class생성
     1. 마우스 오른쪽 클릭 -> Source -> override ~~ 눌러서 메서드 생성
-
       - class에서 선언하기
         > class위에 @WebListener작성 후 import시켜주기
       - web.xml에 선언하기
