@@ -85,11 +85,14 @@
 
   - jsp 알아보자
     - run
-      > jsp -> servlet(jsp container가 생성) -> class -> 메모리에 올림 -> 실행
-      > class파일이 없으면 java, class파일 생성
-      > class파일이 존재하면 재활용해서 실행된다.
-      > 다른 CGI언어들에 비해서 빠르다.
-
+      ```
+      jsp -> servlet(jsp container가 생성) -> class -> 메모리에 올림 -> 실행
+      
+      class파일이 없으면 java, class파일 생성
+      class파일이 존재하면 재활용해서 실행된다.
+      
+      다른 CGI언어들에 비해서 빠르다.
+      ```
   - 지시자: <%@ %> 
     > 페이지 속성(include, import, taglib)
   - 주석: <%-- --%> 
