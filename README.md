@@ -83,28 +83,30 @@
         ```
 ### 2020.08.20
 
-  - jsp 알아보자
-    - run
-      ```
-      jsp -> servlet(jsp container가 생성) -> class -> 메모리에 올림 -> 실행
-      
-      class파일이 없으면 java, class파일 생성
-      class파일이 존재하면 재활용해서 실행된다.
-      
-      다른 CGI언어들에 비해서 빠르다.
-      ```
-  - 지시자: <%@ %> 
-    > 페이지 속성(include, import, taglib)
-  - 주석: <%-- --%> 
-    > html주석은 브라우저에서 노출되지만 jsp주석은 노출되지 않는다.
-  - 선언: <%! %> 
-    > 변수, 메소드 전역으로 선언
-  - 표현식: <%= %>
-    > 결과값 출력
-  - 스크립트릿: <% %> 
-    > JAVA코드
-  - 액션태그: <jsp:action> </jsp:action>
-    > 자바빈 연결
-  
+  ##### jsp 알아보자
+  - run
+    ```
+    jsp -> servlet(jsp container가 생성) -> class -> 메모리에 올림 -> 실행
+    
+    class파일이 없으면 java, class파일 생성
+    class파일이 존재하면 재활용해서 실행된다.
+    
+    다른 CGI언어들에 비해서 빠르다.
+    ```
+    
+  - 문법
+    - 지시자: <%@ %> 
+      > 페이지 속성(include, import, taglib)
+    - 주석: <%-- --%> 
+      > html주석은 브라우저에서 노출되지만 jsp주석은 노출되지 않는다.
+    - 선언: <%! %> 
+      > 변수, 메소드 전역으로 선언
+    - 표현식: <%= %>
+      > 결과값 출력
+    - 스크립트릿: <% %> 
+      > JAVA코드
+    - 액션태그: <jsp:action> </jsp:action>
+      > 자바빈 연결
+    
   - import 단축키
     > import 시킬 객체에 타겟을 맞추고 ctrl + space 누르면 목록이 나온다.
