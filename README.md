@@ -195,7 +195,7 @@
     - setAttribute() [세션에 속성 설정]
     - getAttribute() [속성 반환]
       ```
-        세션은 object로 받아와진다.
+        // 세션은 object로 받아와진다.
         Object obj = session.getAttribute("name");
       ```
     - getAttributeNames()
@@ -259,10 +259,10 @@
     ```
 
 - EL(Expression Language)
-  > ${test} ${}로 
+  > ${}
   ```
     <jsp:getProperty name="student" property="name" />
-    ${student.name} 으로 간소화 가능
+    // ${student.name} 으로 간소화 가능
   ```
 
 - url-pattern
@@ -277,6 +277,7 @@
 - 포워딩
   - request 정보 넘겨주기
     ```
+      // response.sendRedirect("url")로 포워딩을 하게되면 클라이언트로 넘어갔다가 다시 서버로 리다이렉트하는 것이기 때문에 request 값을 넘겨줄 수 없다.
       RequestDispatcher dispatcher = request.getRequestDispatcher("/dispacherJsp.jsp");
       dispatcher.forward(request, response);
     ```
