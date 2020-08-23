@@ -1,4 +1,4 @@
-# practice for java spring
+# practice for jsp
 
 ### 2020.08.18
 
